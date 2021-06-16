@@ -1,0 +1,52 @@
+/*stylesheet*/
+
+/*here is my nice comment*/
+
+* {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+
+	background-color: #e6e6e6;
+}
+
+P {
+	font-size: 1.25rem;
+	padding: 1rem 0;
+
+}
+
+img {
+
+	border-radius: 10px;
+	width: 50%;
+}
+
+.body-div{
+	padding: 4rem 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#main-headline {
+	margin-bottom: 2rem;
+	font-size: 3rem;
+	font-style: bold;
+}
+
+.intro-card {
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+.intro-text {
+	padding: 2rem;
+}
+
+#space2 {
+	float: left;
+	margin-right: 2rem;
+}
