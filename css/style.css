@@ -2,24 +2,67 @@
 
 /*here is my nice comment*/
 
-body {
-	background-color: #e6e6e6;
-	color: #333333;
+* {
+  margin: 0;
+  font-family: usual, sans-serif;
 }
+
+body {
+  background-color: #333333(255, 136, 0);
+  color: white;
+  font-family: usual, sans-serif;
+  height: 100vh;
+}
+
+/* 
 
 #wrapper {
+	margin: 2rem auto;
+	max-width: 1220px;
+	padding: 8 2rem;
+} */
 
-	margin: 2em auto;
-	max-width: 960px;
-	padding: 0 20px;
-
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 100%;
+  font-size: 1.5rem;
+  justify-content: space-between;
 }
 
-#masthead, #main{
-	margin-bottom: 2rem;
+.logo-section {
+  display: flex;
+  align-items: center;
 }
 
-.grid div {
-	padding: 1rem;
-	background-color:rgba(0, 0, 0, 0.1);
+.nav-buttons {
+  display: flex;
+  margin-right: 4rem;
+}
+
+.nav-button {
+  margin: 1rem;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: #333333;
+  height: 100%;
+  width: 100%;
+}
+
+.intro-text {
+  color: white;
+  font-size: 2rem;
+  width: 50%;
+}
+
+.main-text {
+  margin-top: 2rem;
 }
