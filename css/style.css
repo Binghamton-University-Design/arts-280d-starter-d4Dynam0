@@ -5,13 +5,13 @@
 * {
   margin: 0;
   font-family: usual, sans-serif;
+  /*border: solid 1px red;*/
 }
 
 body {
   background-color: #333333(255, 136, 0);
   color: white;
   font-family: usual, sans-serif;
-  height: 100vh;
 }
 
 /* 
@@ -30,25 +30,45 @@ nav {
   font-size: 1.5rem;
   justify-content: space-between;
 }
-
+.nav-name {
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+  font-style: unset;
+}
+.nav-name a {
+  text-decoration: none;
+  color: white;
+}
 .logo-section {
   display: flex;
   align-items: center;
 }
 
+.logo-image {
+  margin: 1rem;
+}
+
 .nav-buttons {
   display: flex;
   margin-right: 4rem;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.nav-button:hover {
+  text-decoration: underline;
 }
 
 .nav-button {
   margin: 1rem;
 }
-
-.intro {
+.intro-wrapper {
+  padding: 10rem 10rem;
+  padding-top: 4rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+}
+.intro-image {
 }
 
 section {
@@ -59,10 +79,48 @@ section {
 
 .intro-text {
   color: white;
-  font-size: 2rem;
+  font-size: 1.25rem;
   width: 50%;
 }
 
 .main-text {
   margin-top: 2rem;
+  font-size: 22px;
+  line-height: 1.5;
 }
+
+.main-title {
+  font-size: 3rem;
+}
+
+.portfolio-section {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.portfolio-box {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10rem;
+  justify-content: space-between;
+}
+
+.portfolio-intro {
+}
+.portfolio-header {
+  padding-top: 1rem;
+  font-size: 30px;
+}
+.portfolio-brief {
+  padding-top: 2rem;
+  line-height: 1.5;
+}
+
+.portfolio-thumb {
+  width: 600px;
+  height: 600px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
