@@ -5,7 +5,7 @@
 * {
   margin: 0;
   font-family: usual, sans-serif;
-  /*border: solid 1px red;*/
+  border: solid 1px red;
 }
 
 body {
@@ -99,7 +99,7 @@ section {
   width: 100vw;
 }
 .portfolio-box {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   padding: 0 10rem;
@@ -123,4 +123,3 @@ section {
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
-
