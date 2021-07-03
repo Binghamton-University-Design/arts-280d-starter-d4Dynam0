@@ -59,9 +59,15 @@ nav {
   text-decoration: underline;
 }
 
+.nav-button a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-button {
   margin: 1rem;
 }
+
 .intro-wrapper {
   padding: 10rem 10rem;
   padding-top: 4rem;
@@ -81,11 +87,12 @@ section {
   color: white;
   font-size: 1.25rem;
   width: 50%;
+  padding-right: 11.8rem;
 }
 
 .main-text {
   margin-top: 2rem;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 1.5;
 }
 
@@ -175,6 +182,20 @@ section {
   height: 100%;
 }
 
+.contact-section {
+  padding: 32px 160px;
+  line-height: 1.5rem;
+}
+
+.contact-header {
+  font-size: 36px;
+  padding-bottom: 16px;
+}
+
+.contact-text {
+  font-size: 22px;
+  line-height: 2rem;
+}
 .footer-section {
   background-color: black;
 }
